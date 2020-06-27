@@ -1,5 +1,21 @@
 .emoji-list {
     visibility: hidden;
     position: absolute;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
+
+.emoji-list ul {
+    border: 1px solid;
+}
+
+.emoji-list li:hover {
+    color: aquamarine;
+}
+
+
+.emoji-list li.active {
+    background: yellowgreen;
+}
+
+
+
